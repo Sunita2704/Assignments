@@ -32,51 +32,6 @@ body {
   padding: 14px 16px;
 }
 
-.dropdown {
-  float: left;
-}
-
-.dropdown .dropbtn {
-  font-size: 16px;
-  color: white;
-  padding: 14px 16px;
-  background-color: rgb(12, 8, 8);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin: 0;
-}
-
-
-.dropdown:hover .dropbtn {
-  background-color: rgb(10, 194, 178);
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-}
-
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  display: block;
-  text-align: left;
-}
-
-.dropdown-content a:hover {
-  background-color: rgb(151, 14, 14);
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-  float: right;
-}
-
-.right {
-  float: right;
-}
-
 /* Applay Css For Sections */
 
 .container {
@@ -108,8 +63,6 @@ body {
   padding: 0px;
 }
 
-
-
 /* Applay CSS for Footer */
 .footer {  
   position: fixed;  
@@ -122,140 +75,51 @@ body {
   text-align: center;  
   background-color: rgb(12, 8, 8);
   }  
-
 </style>
 <body>
 
-<header>
-  <!-- Left-aligned Menu's -->
-  <div class="navbar">
-    <a href="#home">Home</a>
-    <a href="#dashboard">Dashboard</a>
-
-    <!-- Dropdown Menu's -->
-    <div class="dropdown">
-      <button class="dropbtn">Sports
-        <i class="fa fa-caret-down"></i>
-      </button>
-      <div class="dropdown-content">
-        <ul class="dropdown">
-          <li><a href="/">Football</a></li>
-          <li><a href="/">Base Ball</a></li>
-          <li><a href="/">Cricket</a></li>
-        </ul>
+  <header>
+    <!-- Left-aligned Menu's -->
+    <div class="navbar">
+      <a href="#home">Home</a>
+      <a href="#dashboard">Dashboard</a>
+  
+      <div class="right">
+        <a href="#about">About</a>
+        <a href="#us">Us</a>
       </div>
-    </div>
-
-    <div class="dropdown">
-      <button class="dropbtn">Fruits
-        <i class="fa fa-caret-down"></i>
-      </button>
-
-      <div class="dropdown-content">
-        <ul class="dropdown">
-          <li><a href="#">Banana</a></li>
-          <li><a href="#">Apple</a></li>
-          <li><a href="#">Grapes</a></li>
-        </ul>
-
-      </div>
-    </div>
-
-    <div class="dropdown">
-      <button class="dropbtn">Players
-        <i class="fa fa-caret-down"></i>
-      </button>
-
-      <div class="dropdown-content">
-        <ul class="dropdown">
-          <li><a href="#">Batsman</a></li>
-          <li><a href="#">Bowler</a></li>
-          <li> <a href="#">Fielder</a></li>
-          <li><a href="#">Wicket Keepe</a></li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="dropdown">
-      <button class="dropbtn">Subjects
-        <i class="fa fa-caret-down"></i>
-      </button>
-
-      <div class="dropdown-content">
-        <ul class="dropdown">
-          <li><a href="#">C Programming</a></li>
-          <li><a href="#">OOP</a></li>
-          <li><a href="#">Data Structures</a></li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="dropdown">
-      <button class="dropbtn">Topics
-        <i class="fa fa-caret-down"></i>
-      </button>
-
-      <div class="dropdown-content">
-        <ul class="dropdown">
-          <li><a href="#">Selection Statement</a></li>
-          <li><a href="#">Control Structures</a></li>
-          <li><a href="#">Functions</a></li>
-        </ul>
-      </div>
-    </div>
-
-
-    <div class="dropdown">
-      <button class="dropbtn">Employees
-        <i class="fa fa-caret-down"></i>
-      </button>
-
-      <div class="dropdown-content">
-        <ul class="dropdown">
-          <li><a href="#">Programmer</a></li>
-          <li><a href="#">Admin</a></li>
-          <li><a href="#">Sales Manager</a></li>
-        </ul>
-      </div>
-    </div>
-
-    <!-- Right-aligned Menu's-->
-    <div class="right">
-      <a href="#about">About</a>
-      <a href="#us">Us</a>
-    </div>
-  </div><br>
-
-</header>
-
-<!-- Writing Code code for Section -->
-  <section>
-    <nav>
-      <ul class = "one">Courses we Offer<br><br>
-
-        <li><a href="#">Java Full Stack</a></li>
-        <li><a href="#">Python Full Stack</a></li>
-        <li><a href="#">MEAN/MERN Full Stack</a></li>
-        <li><a href="#">Diploma in Software Engineering</a></li>
-      </ul>
-    </nav>
-
-    <nav>
-      <ul class = "two">Connected with us<br><br>
-
-        <li><a href="#">Whatsup</a></li>
-        <li><a href="#">Telegram</a></li>
-      
-      </ul>
-    </nav>
+    </div><br>
+  
     
-  </section>
-
-  <!-- Footer -->
-  <div class="footer">
-    @Copyright - Assignment 2
-
-  </div>
+  </header>
+  
+  <!-- Writing Code code for Section -->
+    <section>
+      <nav>
+        <ul class = "one">Courses we Offer<br><br>
+  
+          <li><a href="#">Java Full Stack</a></li>
+          <li><a href="#">Python Full Stack</a></li>
+          <li><a href="#">MEAN/MERN Full Stack</a></li>
+          <li><a href="#">Diploma in Software Engineering</a></li>
+        </ul>
+      </nav>
+  
+      <nav>
+        <ul class = "two">Connected with us<br><br>
+  
+          <li><a href="#">Whatsup</a></li>
+          <li><a href="#">Telegram</a></li>
+        
+        </ul>
+      </nav>
+      
+    </section>
+  
+    <!-- Footer -->
+    <div class="footer">
+     Assignment 2
+    </div>
 </body>
 </html>
 
