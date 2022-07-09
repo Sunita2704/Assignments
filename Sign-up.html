@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700">
+<title>Form Demo</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!--Added Css Here.. -->
+<style>
+  
+body {
+	color: #fff;
+	background: #3598dc;
+}
+
+.container {
+	width: 500px;
+	margin: 90px auto;
+}
+.container form {
+	color: black;
+	background: #fff;
+	padding: 30px;
+}
+
+.container .form-group {
+	margin-bottom: 20px;
+}
+
+.container a {
+    text-decoration: underline;
+	color: #fff;	
+}
+
+.container form a {
+	color: #3598dc;
+	text-decoration: none;
+}
+
+.container form a:hover {
+	text-decoration: underline;
+}
+
+.form-control {
+	height: 50px;
+	background: #fff;
+}
+
+.form-control {
+	background: #e6dede;
+}
+
+</style>
+</head>
+<body>
+    <!-- Sign up Form -->
+<div class="container">
+    <form action="/sign-up">
+		<h2>Sign Up</h2>
+		<p>Please fill in this form to create an account!</p>
+		<hr>
+        <div class="form-group">
+			<div class="form-row">
+				<div class="col">
+                    <!-- <label>First Name</label> -->
+                    <input type="text" class="form-control" name="FName"  id="firstName" placeholder="First Name" required="required">
+                </div>
+				<div class="col">
+                    <input type="text" class="form-control" name="last_name" id="lastName" placeholder="Last Name" required="required">
+                </div>
+			</div>        	
+        </div>
+        <div class="form-group">
+        	<input type="email" class="form-control" name="email" id="emailId" placeholder="Email" required="required">
+        </div>
+
+		<div class="form-group">
+            <input type="password" class="form-control" name="password" id="pass" placeholder="Password" required="required">
+        </div>
+
+		<div class="form-group">
+            <input type="password" class="form-control" name="confirm_password" id="cPassword" placeholder="Confirm Password" 
+            required="required">
+        </div>   
+
+        <div class="form-group">
+			<label class="form-check-label"><input type="checkbox" required="required">
+                 I accept the <a href="#">Terms of Use</a> &amp; 
+                 <a href="#">Privacy Policy</a></label>
+		</div>
+
+		<div class="form-group">
+            <button type="submit" class="btn btn-primary">Sign Up</button>
+        </div>
+    </form>
+	<div class="extra-text" style="text-align:center">Already have an account? 
+      <a href="#">Login here</a></div>
+</div>
+</body>
+</html>
