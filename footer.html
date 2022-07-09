@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Project</title>
+</head>
+<style>
+    body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .navbar {
+        overflow: hidden;
+        background-color: rgb(12, 8, 8);
+    }
+
+    .navbar a {
+        float: left;
+        color: rgb(0, 225, 255);
+        text-align: center;
+        padding: 12px 14px;
+    }
+
+    * Added Css For Sections */ .container {
+        display: flexbox;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .one {
+        float: left;
+        background-color: yellow;
+        width: 300px;
+        height: 600px;
+        color: black;
+        padding: 30px;
+        text-align: left;
+    }
+
+    .two {
+        color: black;
+        width: 300px;
+        height: 600px;
+        float: right;
+        padding: 30px;
+        background-color: yellow;
+    }
+
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    /* Added CSS for Footer */
+    .footer {
+        position: fixed;
+        left: 20px;
+        bottom: 5px;
+        right: 10px;
+        width: 96%;
+        height: 20px;
+        padding: 14px 16px;
+        color: white;
+        text-align: center;
+        background-color: rgb(12, 8, 8);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+</style>
+
+<body>
+
+    <header>
+
+        <div class="navbar">
+            <a href="#home">Home</a>
+            <a href="#dashboard">Dashboard</a>
+            <a href="#about us">About</a>
+            <a href="#us">Us</a>
+        </div><br>
+
+    </header>
+
+    <!-- Added Code for Section -->
+    <section>
+        <div class="one">Courses we Offer<br><br>
+            <ul>
+                <li>Java Full Stack</li>
+                <li>Python Full Stack</li>
+                <li>MEAN/MERN Full Stack</li>
+                <li>Diploma in Software Engineering</li>
+            </ul>
+        </div>
+
+        <div class="two">Connected with us<br><br>
+            <ul>
+                <li>Whatsup</li>
+                <li>Telegramk</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Added code for Footer -->
+    <div class="footer">
+        COPYRIGHTS - FIRSTBIT SOLUTIONS PVT LTD.2022
+    </div>
+
+</body>
+
+</html>
